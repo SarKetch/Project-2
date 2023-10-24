@@ -34,7 +34,7 @@ h3 {
     margin-top: 30px;
 }
 
-#round-button {
+.round-button {
     width: 150px;
     height: 150px;
     border-radius: 50%;
