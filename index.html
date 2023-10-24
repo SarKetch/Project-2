@@ -1,26 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<meta name="Description" content="Enter your description here"/>
 
-<link rel="stylesheet" href="assets/css/style.css">
-<title>What's For Dinner?</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>What's For Dinner?</title>
 </head>
 
 <body>
-<header>
-    <a href="index.html">
-    <h1>What's for Dinner?
-    </h1> 
-    </a>
-</header>
-<h3>I'm in the mood for...</h3>
-<main>Main</main>
-<footer>Footer</footer>
 
-<script src= "assets/js/script.js"></script>
+        <h1>What's for dinner?</h1>
+        <h3>I'm in the mood for...</h3>
+
+        <div class="options">
+            <div class="row1">
+                <button id="round-button" data-type="light">Light</button>
+                <button id="round-button" data-type="comforting">Comforting</button>
+                  </div>
+                  <div class="row2"></div>
+                <button id="round-button" data-type="healthy">Healthy</button>
+                <button id="round-button" data-type="slowcooker">Slow Cooker</button>
+                    <div class="row3"></div>
+                <button id="round-button" data-type="vegetarian">Vegetarian</button>
+                <button id="round-button" data-type="quick">Quick</button>
+
+        </div>
+
+        <button id="submit-btn">Submit</button>
+
+        <div id="recipes">
+            <!-- Thumbnails of recipes will be populated here using JavaScript -->
+        </div>
+
+        <div id="refresh-btn-parent">
+            <button id="refresh-btn" onclick="location.reload();">Refresh</button>
+        </div>
+
+        <script src="scripts.js"></script>
+        
 </body>
+
 </html>
