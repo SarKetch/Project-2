@@ -1,13 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
     text-align: center;
     padding: 40px;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgba(175, 214, 227, 0.632);
+    box-shadow: 0 0 15px rgba(175, 214, 227, 0.632);
+}
+
+#logo {
+    margin-top: 30px;
+}
+
+#logo h1 {
+    font-size: 2.6em;
+    text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    padding-top: 0;
+    margin-top: 30px;
+}
 
 #round-button {
     width: 150px;
@@ -17,10 +42,20 @@ body {
     border: none;
     cursor: pointer;
     transition: 0.3s;
+    background-color: darkseagreen;
+    box-shadow: 0 0 10px darkseagreen;
+    font-size: 1em;
 }
 
 #round-button:active {
     transform: scale(0.95);
+}
+
+#submit-btn {
+    width: 100px;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 1em;
 }
 
 #recipes img {
@@ -37,6 +72,8 @@ body {
 
 #refresh-btn {
     margin: 20px auto;
+    padding: 5px;
+    font-size: 1em;
 }
 
 @media screen and (max-width: 440px) {
