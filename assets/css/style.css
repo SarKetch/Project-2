@@ -49,6 +49,12 @@ h3 {
 
 #round-button:active {
     transform: scale(0.95);
+    background-color: #ff0000;
+}
+
+.selected {
+    background-color: #ff0000;
+
 }
 
 #submit-btn {
@@ -57,6 +63,7 @@ h3 {
     padding: 10px;
     font-size: 1em;
 }
+
 
 #recipes img {
     width: 100px;
