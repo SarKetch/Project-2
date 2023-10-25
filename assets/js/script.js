@@ -12,3 +12,34 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 
+function selectMood {
+    
+}
+
+function getRecipes {
+
+}
+
+function displaySeafood {
+
+}
+
+function displayComfort {
+
+}
+
+function displayHealthy {
+
+}
+
+function displaySlowCooker {
+
+}
+
+function displayVeg {
+
+}
+
+function displayQuick {
+
+}
