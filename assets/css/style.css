@@ -11,6 +11,18 @@ body {
     background-repeat: no-repeat;
 }
 
+main {
+        background-color: rgba(230, 236, 240, 0.7);
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        width: 90%;
+        max-width: 1100px;
+        height: auto;
+        max-height: auto;
+        margin: 50px auto;
+}
+
 #logo {
     margin-top: 30px;
 }
@@ -72,11 +84,19 @@ h3 {
     font-size: 1em;
 }
 
+#recipes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 #recipes a {
     text-decoration: none;
     text-transform: uppercase;
     color: black;
-    padding: 5pxx;
+    padding: 5px;
+
 }
 
 .recipe-img {
@@ -91,10 +111,15 @@ h3 {
     /* this will ensure the aspect ratio of images is maintained */
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 750px) {
 
 .round-button {
     width: 100px;
     height: 100px;
     border: 50%;
+}
+
+.recipe-img {
+    display: flex;
+    flex-direction: column;
 }
