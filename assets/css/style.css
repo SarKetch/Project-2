@@ -4,15 +4,11 @@
 body {
     font-family: "Roboto Condensed", sans-serif;
     text-align: center;
-    padding: 40px;
-}
-
-main {
-    display: flex;
-    flex-direction: column;
     height: 100vh;
-    background-color: rgba(175, 214, 227, 0.632);
-    box-shadow: 0 0 15px rgba(175, 214, 227, 0.632);
+    background: url(../images/pexels-nicole-michalou-5779170.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 #logo {
@@ -49,11 +45,11 @@ h3 {
 
 #round-button:active {
     transform: scale(0.95);
-    background-color: #ff0000;
+    background-color: rgba(212, 56, 215, 0.739);
 }
 
 .selected {
-    background-color: #ff0000;
+    background-color: rgba(212, 56, 215, 0.739);
 
 }
 
@@ -62,13 +58,6 @@ h3 {
     margin: 20px auto;
     padding: 10px;
     font-size: 1em;
-}
-
-
-#recipes img {
-    width: 100px;
-    height: 100px;
-    margin: 10px;
 }
 
 .options {
@@ -81,6 +70,25 @@ h3 {
     margin: 20px auto;
     padding: 5px;
     font-size: 1em;
+}
+
+#recipes a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    padding: 5pxx;
+}
+
+.recipe-img {
+    display: flex;
+    flex-direction:row;
+    margin: 0 auto;
+    width: 200px;
+    /* adjust as needed */
+    height: 200px;
+    /* adjust as needed */
+    object-fit: cover;
+    /* this will ensure the aspect ratio of images is maintained */
 }
 
 @media screen and (max-width: 440px) {

@@ -40,16 +40,16 @@ function displayRecipesForMood(mood) {
     if (recipes && recipes.length > 0) {
         let container = document.getElementById("recipes");
         container.innerHTML = '';
-        
         let selected_recipes = getRandomRecipes(recipes, 3);
+
         for (let recipe of selected_recipes) {
             let link = document.createElement('a');
-
             link.href = recipe.url;
             link.textContent = recipe.title;
 
             let img = document.createElement('img');
             img.src = recipe.image; // new line
+            img.classList.add('recipe-img')
             link.appendChild(img);  // new line
 
             container.appendChild(link);
@@ -89,7 +89,7 @@ function getRecipes(mood) {
     // Add or modify moods if you want
     let recipes = {
         'slowcooker': [
-            { title: 'White Pork Ragu', url: 'https://www.theburntbuttertable.com/white-pork-ragu/' },
+            { title: 'White Pork Ragu', url: 'https://www.theburntbuttertable.com/white-pork-ragu/', image:'assets/images/whiteragu1-1638x2048.jpeg', },
             { title: 'Osso Bucco', url: 'https://www.taste.com.au/recipes/osso-buco-6/1d8wtvyj?r=recipes/top100bestslowcookerrecipes&c=6ys6itzo/Top%20100%20best%20slow%20cooker%20recipes'},
             { title: 'Lemon Artichoke Chicken', url: 'https://fitslowcookerqueen.com/slow-cooker-chicken-artichokes-whole30-paleo/'},
             { title: 'Asian Braised Beef', url: 'https://www.thelittleepicurean.com/slow-cooker-asian-braised-beef/?utm_campaign=shareaholic&utm_medium=facebook&utm_source=socialnetwork'},
