@@ -60,11 +60,11 @@ h3 {
 
 #round-button:active {
     transform: scale(0.95);
-    background-color: rgba(212, 56, 215, 0.739);
+    background-color: rgba(215, 56, 178, 0.357);
 }
 
 .selected {
-    background-color: rgba(212, 56, 215, 0.739);
+    background-color: rgba(215, 56, 178, 0.357);
 
 }
 

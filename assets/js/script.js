@@ -13,7 +13,15 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         });
     }
+    document.addEventListener('keydown',function(event) {
+        if (event.key === 'Enter' && selectedMood) {
+            displayRecipesForMood(selectedMood);
+        }
+    });
 });
+
+
+
 function selectMood(button) {
     let buttons = document.getElementsByTagName("button");
     for (let btn of buttons) {
