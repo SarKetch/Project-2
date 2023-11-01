@@ -86,23 +86,32 @@ function displaySuprise() {
     return allrecipes;
 }
 function getRecipes(mood) {
-    // Add or modify moods if you want
+
     let recipes = {
         'slowcooker': [
             { title: 'White Pork Ragu', url: 'https://www.theburntbuttertable.com/white-pork-ragu/', image:'assets/images/whiteragu1-1638x2048.jpeg', },
-            { title: 'Osso Bucco', url: 'https://www.taste.com.au/recipes/osso-buco-6/1d8wtvyj?r=recipes/top100bestslowcookerrecipes&c=6ys6itzo/Top%20100%20best%20slow%20cooker%20recipes'},
+            { title: 'Osso Bucco', url: 'https://www.bestrecipes.com.au/recipes/osso-buco-slow-cooker-recipe/bbvbzngh', image: ''},
             { title: 'Lemon Artichoke Chicken', url: 'https://fitslowcookerqueen.com/slow-cooker-chicken-artichokes-whole30-paleo/'},
             { title: 'Asian Braised Beef', url: 'https://www.thelittleepicurean.com/slow-cooker-asian-braised-beef/?utm_campaign=shareaholic&utm_medium=facebook&utm_source=socialnetwork'},
             { title: 'Welsh Lamb Hotpot', url:'https://www.supergoldenbakes.com/lamb-hotpot/'},
             { title: 'Chicken Curry', url: 'https://www.supergoldenbakes.com/slow-cooker-chicken-curry/'},
         ],
         'vegetarian': [
-            { title: 'Simple Mushroom Curry', url: 'https://www.bbcgoodfood.com/recipes/simple-mushroom-curry' },
-            // Add more vegetarian recipes
+            { title: 'Vegan Thai Green Curry', url: 'https://www.olivemagazine.com/recipes/quick-and-easy/vegan-thai-green-curry/' },
+            { title: 'Burnt Aubergine Veggie Chilli', url: 'https://www.bbcgoodfood.com/recipes/burnt-aubergine-veggie-chilli', image: ''},
+            { title: 'Sticky Sesame Cauliflower', url: 'https://www.tashasartisanfoods.com/blog/sticky-sesame-cauliflower/', image: ''},
+            { title: 'Crispy Gochujang Korean Tofu', url: 'https://eatwithclarity.com/gochujang-korean-tofu/?ssp_iabi=1684055153711', image: '' },
+            { title: 'Mushroom Risotto with Frizzled Leeks', url: 'https://www.feastingathome.com/mushroom-risotto/', image: '' },
+            { title: 'Crispy Black Bean Tacos', url: 'https://playswellwithbutter.com/crispy-black-bean-tacos/', image: '' },
+
         ],
         'quick': [
-            { title: 'Quick recipe 1', url: 'https://www.example.com' },
-            // Add more quick recipes
+            { title: 'Honey Garlic Chicken', url: 'https://www.kitchensanctuary.com/honey-garlic-chicken/' },
+            { title: '20 Minute Thai Basil Beef Rolls.', url: 'https://www.halfbakedharvest.com/beef-rolls/?adt_ei', image: '' },
+            { title: '10 Minute Peanut Sauce Rice Noodles', url: 'https://thetwincookingproject.net/10-minute-peanut-sauce-rice-noodles/?utm_medium=social&utm_source=pinterest&utm_campaign=tailwind_tribes&utm_content=tribes&utm_term=1047384384_49051868_81643', image: '' },
+            { title: 'Easy Balsamic Glazed Steak Tips and Mushrooms', url: 'https://www.thekitchn.com/recipe-easy-balsamic-glazed-steak-tips-and-mushrooms-249798', image: '' },
+            { title: 'Spicy Ground Pork & Zucchini Stir-Fry', url: 'https://www.thekitchn.com/spicy-ground-pork-amp-zucchini-stir-fry-247254', image: '' },
+            { title: 'Sheet Pan Chicken Fajitas', url: 'https://damndelicious.net/2019/07/24/sheet-pan-chicken-fajitas/', image: '' },
         ]
     };
     return recipes[mood];
