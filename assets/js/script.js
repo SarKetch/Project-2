@@ -89,12 +89,12 @@ function getRecipes(mood) {
 
     let recipes = {
         'slowcooker': [
-            { title: 'White Pork Ragu', url: 'https://www.theburntbuttertable.com/white-pork-ragu/', image:'assets/images/whiteragu1-1638x2048.jpeg', },
-            { title: 'Osso Bucco', url: 'https://www.bestrecipes.com.au/recipes/osso-buco-slow-cooker-recipe/bbvbzngh', image: ''},
-            { title: 'Lemon Artichoke Chicken', url: 'https://fitslowcookerqueen.com/slow-cooker-chicken-artichokes-whole30-paleo/'},
-            { title: 'Asian Braised Beef', url: 'https://www.thelittleepicurean.com/slow-cooker-asian-braised-beef/?utm_campaign=shareaholic&utm_medium=facebook&utm_source=socialnetwork'},
-            { title: 'Welsh Lamb Hotpot', url:'https://www.supergoldenbakes.com/lamb-hotpot/'},
-            { title: 'Chicken Curry', url: 'https://www.supergoldenbakes.com/slow-cooker-chicken-curry/'},
+            { title: 'White Pork Ragu', url: 'https://www.theburntbuttertable.com/white-pork-ragu/', image:'assets/images/whiteragu.webp', },
+            { title: 'Osso Bucco', url: 'https://www.bestrecipes.com.au/recipes/osso-buco-slow-cooker-recipe/bbvbzngh', image: 'assets/images/ossobucco.webp'},
+            { title: 'Lemon Artichoke Chicken', url: 'https://fitslowcookerqueen.com/slow-cooker-chicken-artichokes-whole30-paleo/', image: 'assets/images/lemonartichokechicken.webp'},
+            { title: 'Asian Braised Beef', url: 'https://www.thelittleepicurean.com/slow-cooker-asian-braised-beef/?utm_campaign=shareaholic&utm_medium=facebook&utm_source=socialnetwork', image: 'assets/images/asianbraisedbeef.webp'},
+            { title: 'Welsh Lamb Hotpot', url: 'https://www.supergoldenbakes.com/lamb-hotpot/', image: 'assets/images/lambhotpot.webp'},
+            { title: 'Chicken Curry', url: 'https://www.supergoldenbakes.com/slow-cooker-chicken-curry/', image: 'assets/images/lambhotpot.webp'},
         ],
         'vegetarian': [
             { title: 'Vegan Thai Green Curry', url: 'https://www.olivemagazine.com/recipes/quick-and-easy/vegan-thai-green-curry/' },
