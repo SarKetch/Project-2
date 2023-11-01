@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
 
+html {
+    min-height: 100%;
+}
 
 body {
     font-family: "Roboto Condensed", sans-serif;
     text-align: center;
-    height: 100vh;
-    background: url(../images/pexels-nicole-michalou-5779170.jpg);
+    min-height: 100%;
+    background: url(../images/garlicandherbs.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -122,4 +125,6 @@ h3 {
 .recipe-img {
     display: flex;
     flex-direction: column;
+}
+
 }
