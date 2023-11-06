@@ -57,14 +57,17 @@ function displayRecipesForMood(mood) {
             link.target = '_blank';
 
             let img = document.createElement('img');
-            img.src = recipe.image; // new line
+            img.src = recipe.image; 
             img.classList.add('recipe-img')
-            link.appendChild(img);  // new line
+            link.appendChild(img);  
 
             container.appendChild(link);
 
             document.getElementById("refresh-btn").style.display = "block";
+
+            document.getElementById("recipes").scrollIntoView({ behavior: 'smooth' });
         }
+        
     }
 }
 function getRandomRecipes(recipes, num) {
