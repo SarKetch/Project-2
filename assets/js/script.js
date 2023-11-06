@@ -112,7 +112,7 @@ function getRecipes(mood) {
             { title: 'Burnt Aubergine Veggie Chilli', url: 'https://www.bbcgoodfood.com/recipes/burnt-aubergine-veggie-chilli', image: 'assets/images/auberginechili.webp'},
             { title: 'Sticky Sesame Cauliflower', url: 'https://www.tashasartisanfoods.com/blog/sticky-sesame-cauliflower/', image: 'assets/images/stickysesamecauliflower.webp'},
             { title: 'Crispy Gochujang Korean Tofu', url: 'https://eatwithclarity.com/gochujang-korean-tofu/?ssp_iabi=1684055153711', image: 'assets/images/koreantofu.webp'},
-            { title: 'Mushroom Risotto with Frizzled Leeks', url: 'https://www.feastingathome.com/mushroom-risotto/', image: 'assets/images/Mushroom-Risotto_.webp' },
+            { title: 'Mushroom Risotto with Leeks', url: 'https://www.feastingathome.com/mushroom-risotto/', image: 'assets/images/Mushroom-Risotto_.webp' },
             { title: 'Crispy Black Bean Tacos', url: 'https://playswellwithbutter.com/crispy-black-bean-tacos/', image: 'assets/images/blackbeantacos.webp' },
 
         ],

@@ -137,10 +137,11 @@ button {
 @media screen and (max-width: 750px) {
 
 .round-button {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     border: 50%;
 }
+
 
 .recipe-img {
     display: flex;
