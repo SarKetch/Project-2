@@ -58,7 +58,7 @@ function displayRecipesForMood(mood) {
 
             let img = document.createElement('img');
             img.src = recipe.image; 
-            img.classList.add('recipe-img')
+            img.classList.add('recipe-img');
             link.appendChild(img);  
 
             container.appendChild(link);
@@ -83,6 +83,7 @@ function getRandomRecipes(recipes, num) {
     }
     return result;
 }
+
 function displaySlowCooker() {
     return getRecipes('slowcooker');
 }
