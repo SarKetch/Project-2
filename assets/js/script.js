@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
             } else if (this.classList.contains("round-button")) {
                 selectedMood = this.getAttribute("data-type");
                 selectMood(this);
-            } else if (this.getAttribute("id") === "refresh-btn") {
+            } else if (this.getAttribute("id") === "refresh-btn"){
                 location.reload();
             }
         });
@@ -62,6 +62,8 @@ function displayRecipesForMood(mood) {
             link.appendChild(img);  // new line
 
             container.appendChild(link);
+
+            document.getElementById("refresh-btn").style.display = "block";
         }
     }
 }

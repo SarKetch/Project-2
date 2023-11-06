@@ -1,13 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Roboto+Condensed:wght@300;400&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
 
 html {
     min-height: 100%;
 }
 
 body {
-    font-family: "Roboto Condensed", sans-serif;
+    font-family: 'Agbalumo';
     text-align: center;
     min-height: 100%;
     background: url(../images/garlicandherbs.webp);
@@ -51,6 +49,11 @@ h3 {
     font-style: italic;
 }
 
+button {
+    font-family: "Agbalumo", sans-serif;
+    font-size: 1.3em;
+}
+
 .round-button {
     width: 150px;
     height: 150px;
@@ -59,9 +62,8 @@ h3 {
     border: none;
     cursor: pointer;
     transition: 0.3s;
-    background-color: darkseagreen;
-    box-shadow: 0 0 10px darkseagreen;
-    font-size: 1em;
+    background-color: rgb(143, 188, 143);
+    box-shadow: 0 0 10px rgb(143, 188, 143);
 }
 
 #round-button:active {
@@ -71,14 +73,27 @@ h3 {
 
 .selected {
     background-color: rgba(215, 56, 178, 0.357);
-
+    font-weight: bold;
 }
 
 #submit-btn {
     width: 100px;
     margin: 20px auto;
     padding: 10px;
-    font-size: 1em;
+    font-size: 1.5em;
+}
+
+#submit-btn:active,
+#refresh-btn:active {
+    background-color: rgba(215, 56, 178, 0.357);
+}
+
+#submit-btn,
+#refresh-btn {
+    color: rgba(215, 56, 178);
+    background-color: rgba(230, 236, 240, 0.5);
+    border: 3px solid rgb(143, 188, 143);
+    border-radius: 10px;
 }
 
 .options {
@@ -89,8 +104,9 @@ h3 {
 
 #refresh-btn {
     margin: 20px auto;
-    padding: 5px;
-    font-size: 1em;
+    padding: 10px;
+    font-size: 1.5em;
+    display: none;
 }
 
 #recipes {
@@ -101,17 +117,16 @@ h3 {
 }
 
 #recipes a {
-    text-decoration: none;
+    text-decoration: underline;
     text-transform: uppercase;
     color: black;
-    padding: 5px;
-
+    font-size: 1.3em;
 }
 
 .recipe-img {
     display: flex;
     flex-direction:row;
-    margin: 0 auto;
+    margin: 5px auto;
     width: 230px;
     height: 230px;
     object-fit: cover;
