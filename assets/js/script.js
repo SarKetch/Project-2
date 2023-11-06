@@ -118,10 +118,10 @@ function getRecipes(mood) {
         ],
         'quick': [
             { title: 'Honey Garlic Chicken', url: 'https://www.kitchensanctuary.com/honey-garlic-chicken/', image: 'assets/images/honeygarlicchicken.webp' },
-            { title: '20 Minute Thai Basil Beef Rolls.', url: 'https://www.halfbakedharvest.com/beef-rolls/?adt_ei', image: 'assets/images/thaibeefrolls.webp' },
-            { title: '10 Minute Peanut Sauce Rice Noodles', url: 'https://thetwincookingproject.net/10-minute-peanut-sauce-rice-noodles/?utm_medium=social&utm_source=pinterest&utm_campaign=tailwind_tribes&utm_content=tribes&utm_term=1047384384_49051868_81643', image: 'assets/images/peanutnoodles.jpg.webp' },
+            { title: '20 Min Thai Basil Beef Rolls.', url: 'https://www.halfbakedharvest.com/beef-rolls/?adt_ei', image: 'assets/images/thaibeefrolls.webp' },
+            { title: '10 Min Peanut Sauce Noodles', url: 'https://thetwincookingproject.net/10-minute-peanut-sauce-rice-noodles/?utm_medium=social&utm_source=pinterest&utm_campaign=tailwind_tribes&utm_content=tribes&utm_term=1047384384_49051868_81643', image: 'assets/images/peanutnoodles.jpg.webp' },
             { title: 'Steak Tips and Mushrooms', url: 'https://www.thekitchn.com/recipe-easy-balsamic-glazed-steak-tips-and-mushrooms-249798', image: 'assets/images/beeftipswithmushrooms.webp' },
-            { title: 'Spicy Ground Pork & Zucchini Stir-Fry', url: 'https://www.thekitchn.com/spicy-ground-pork-amp-zucchini-stir-fry-247254', image: 'assets/images/porkandcourgette.webp' },
+            { title: 'Ground Pork & Zucchini Stir-Fry', url: 'https://www.thekitchn.com/spicy-ground-pork-amp-zucchini-stir-fry-247254', image: 'assets/images/porkandcourgette.webp' },
             { title: 'Sheet Pan Chicken Fajitas', url: 'https://damndelicious.net/2019/07/24/sheet-pan-chicken-fajitas/', image: 'assets/images/fajitas.webp' },
         ]
     };
