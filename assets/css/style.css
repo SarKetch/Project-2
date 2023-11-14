@@ -1,7 +1,7 @@
 html {
     min-height: 100%;
 }
-
+/* General body styling rules */
 body {
     font-family: 'Agbalumo';
     text-align: center;
@@ -11,7 +11,7 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
 }
-
+/* Main content with flexible box layout */
 main {
     background-color: rgba(230, 236, 240, 0.7);
     display: flex;
@@ -22,21 +22,21 @@ main {
     height: auto;
     margin: 50px auto;
 }
-
+/* Logo styles including font, size, color, and spacing */
 #logo {
     margin-top: 30px;
     font-family: 'Agbalumo', sans-serif;
     font-size: 1.7em;
     color: rgba(215, 56, 178);
 }
-
+/* Specific styles for the header within the logo */
 #logo h1 {
     font-size: 2.6em;
     text-transform: uppercase;
     font-weight: lighter;
     letter-spacing: 1px;
 }
-
+/* Styles applied to h3 headings */
 h3 {
     font-size: 1.5em;
     letter-spacing: 1px;
@@ -44,12 +44,12 @@ h3 {
     margin-bottom: 30px;
     font-style: italic;
 }
-
+/* Button styles including font settings */
 button {
     font-family: "Agbalumo", sans-serif;
     font-size: 1.3em;
 }
-
+/* Styles for round buttons, such as mood selector */
 .round-button {
     width: 150px;
     height: 150px;
@@ -62,29 +62,29 @@ button {
     background-color: rgb(143, 188, 143);
     box-shadow: 0 0 10px rgb(143, 188, 143);
 }
-
+/* Specific interactive styles for round buttons when active (clicked) */
 #round-button:active {
     transform: scale(0.95);
     background-color: rgba(215, 56, 178, 0.357);
 }
-
+/* Styles for the selected mood button to highlight the user's choice */
 .selected {
     background-color: rgba(215, 56, 178, 0.357);
     font-weight: bold;
 }
-
+/* Styles for the submit button */
 #submit-btn {
     width: 100px;
     margin: 20px auto;
     padding: 10px;
     font-size: 1.5em;
 }
-
+/* Interactive styles for the submit and refresh buttons when clicked */
 #submit-btn:active,
 #refresh-btn:active {
     background-color: rgba(215, 56, 178, 0.357);
 }
-
+/* Shared styles between submit and refresh buttons */
 #submit-btn,
 #refresh-btn {
     color: rgba(215, 56, 178);
@@ -92,34 +92,34 @@ button {
     border: 3px solid rgb(143, 188, 143);
     border-radius: 10px;
 }
-
+/* Container styling for mood selection buttons */
 .options {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-
+/* Refresh button specific styles, including initial display setting */
 #refresh-btn {
     margin: 20px auto;
     padding: 10px;
     font-size: 1.5em;
     display: none;
 }
-
+/* Recipe listing styles */
 #recipes {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-
+/* Styles for links within the recipe list */
 #recipes a {
     text-decoration: underline;
     text-transform: uppercase;
     color: black;
     font-size: 1.3em;
 }
-
+/* Responsive image styling for the recipe thumbnails */
 .recipe-img {
     display: flex;
     flex-direction: row;
@@ -131,16 +131,11 @@ button {
     border: 3px ridge rgba(215, 56, 178, .3);
 }
 
+/* Media query for responsive adaptations below 750px screen widths */
 @media screen and (max-width: 750px) {
-
-    .round-button {
-        display: flex;
-    }
-
 
     .recipe-img {
         display: flex;
         flex-direction: column;
     }
-
 }

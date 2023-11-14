@@ -2,49 +2,54 @@
 <html lang="en">
 
 <head>
+    <!-- Required meta tags for responsiveness and compatibility -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Meta tag for site description -->
     <meta name="RecipeGenerator" content="Generate recepies based on your mood">
-    <link rel='shortcut icon' type='image/x-icon' href='favicon.png'>
+    <!-- Favicon for the website -->
+    <link rel='shortcut icon' type='image/x-icon' href='favicon.ico'>
+    <!-- Preconnect to Google fonts and stylesheet for the custom font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Agbalumo&display=swap" rel="stylesheet">
+    <!-- Link to the main stylesheet for the page -->
     <link rel="stylesheet" href="assets/css/style.css">
-
+    <!-- Title of the page -->
     <title>What's For Dinner?</title>
 </head>
 
 <body>
-    <main> 
+    <main>
+        <!-- Logo and main title section -->
         <div id="logo">
-        <h1>What's for dinner?</h1>
+            <h1>What's for dinner?</h1>
         </div>
-         
+        <!-- Placeholder where additional content can be added -->
         <div id="container"></div>
+        <!-- Mood selection prompt -->
         <h3>I'm in the mood for...</h3>
         <div class="options">
-
-                <button class="round-button" data-type="slowcooker">Slow Cooker</button>
-                <button class="round-button" data-type="vegetarian">Vegetarian</button>
-                <button class="round-button" data-type="quick">Quick & Easy</button>
-                <button class="round-button" data-type="suprise">Suprise Me!</button>
-
+            <!-- Buttons used for selecting the mood for recipes -->
+            <button class="round-button" data-type="slowcooker">Slow Cooker</button>
+            <button class="round-button" data-type="vegetarian">Vegetarian</button>
+            <button class="round-button" data-type="quick">Quick & Easy</button>
+            <button class="round-button" data-type="suprise">Suprise Me!</button>
         </div>
-
+        <!-- Button to submit the selected mood and fetch recipes -->
         <button id="submit-btn">Go!</button>
-
+        <!-- Container for displaying the fetched recipes -->
         <div id="recipes">
             <!-- Thumbnails of recipes will be populated here using JavaScript -->
-    
         </div>
-
+        <!-- Refresh button to reload the page -->
         <div id="refresh-btn-parent">
             <button id="refresh-btn" onclick="location.reload();">Refresh</button>
         </div>
-
+        <!-- Link to the main JavaScript file -->
         <script src="assets/js/script.js"></script>
-        </main>
+    </main>
 </body>
 
 </html>

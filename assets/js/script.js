@@ -71,6 +71,8 @@ function displayRecipesForMood(mood) {
 
             let img = document.createElement('img');
             img.src = recipe.image;
+            // Sets the alt text to the recipe's title
+            img.alt = recipe.title;
             img.classList.add('recipe-img');
             link.appendChild(img);
 
