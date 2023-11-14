@@ -4,12 +4,21 @@
 
 "What's for Dinner?" is an interactive web application designed to help users solve the age-old question: "What should I make for dinner tonight?" It provides a simple and intuitive interface where users can choose from several mood-inspired options, including a 'Surprise Me' button for those who feel particularly indecisive.
 
+![Screenshot of website on varied device sizes](assets/readme.images/Mockup-generator.webp)
+
 ## Features
 
 - **Intuitive Interface:** A clean header and four prominent buttons guide the user through the experience with minimum hassle.
 - **Recipe Generation:** Users can generate meal ideas by clicking on the 'Go' button or by simply pressing 'Enter'.
 - **Variety of Options:** Although currently limited to six recipes, the 'Surprise Me' feature randomly selects from a larger pool of 18 possibilities for added variety.
 - **Responsive Design:** The website is fully responsive and provides a seamless experience across different devices and screen sizes.
+
+![Screenshot the design features of the selected button](assets/readme.images/button-active.webp)
+
+![Screenshot the design features of the selected button with generated recipes on full screen](assets/readme.images/recipes-generated.webp)
+
+![Screenshot the design features of the selected button with generated recipes on small screen](assets/readme.images/recipe-generated-smallscreen.webp)
+
 
 ## Planned Features
 
