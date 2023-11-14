@@ -1,39 +1,59 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# What's for Dinner?
 
-Welcome,
+## Overview
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+"What's for Dinner?" is an interactive web application designed to help users solve the age-old question: "What should I make for dinner tonight?" It provides a simple and intuitive interface where users can choose from several mood-inspired options, including a 'Surprise Me' button for those who feel particularly indecisive.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+## Features
 
-## Codeanywhere Reminders
+- **Intuitive Interface:** A clean header and four prominent buttons guide the user through the experience with minimum hassle.
+- **Recipe Generation:** Users can generate meal ideas by clicking on the 'Go' button or by simply pressing 'Enter'.
+- **Variety of Options:** Although currently limited to six recipes, the 'Surprise Me' feature randomly selects from a larger pool of 18 possibilities for added variety.
+- **Responsive Design:** The website is fully responsive and provides a seamless experience across different devices and screen sizes.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+## Planned Features
 
-`python3 -m http.server`
+- **Expanded Recipe Database:** Future implementations aim to source recipes from a broader database, providing users with a greater variety of meal options.
+- **Increased Interactivity:** Allowing users to interact with more buttons simultaneously and choose multiple preferences for more tailored results.
+- **Ingredient-Based Search:** A planned search feature will enable users to find recipes based on specific ingredients they have on hand or wish to include.
+- **Enhanced Presentation:** The visual display of recipes will be refined to include thumbnail images and teaser descriptions, creating a more engaging user experience.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Testing
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+### Validator Testing
 
-`http_server`
+- **HTML:** No errors found using the W3C Markup Validation Service.
+- **CSS:** Identified a missing colon, which has been corrected.
+- **Javscript:** An additional syntax error was detected. Found to be from a missing closing bracket which caused the imbalance. 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Performance and Compatibility
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- **Cross-Browser Testing:** Assessed on multiple devices and browsers. Corrected an instance where button text appeared incorrectly.
+- **Performance Testing:** Performance metrics were satisfactory per Lighthouse assessments.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Unfixed Bugs
 
-To log into the Heroku toolbelt CLI:
+- At the time of writing, no unresolved bugs have been identified.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Deployment
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+The application is hosted on GitHub Pages. The deployment process is as follows:
 
----
+1. Navigate to the GitHub repository and select the 'Settings' tab.
+2. In the 'Source' section, choose the 'Master Branch' for deployment.
+3. The site is successfully published upon the completion of these steps, confirmed by an automatic page refresh and a deployment ribbon.
 
-Happy coding!
+## Credits
+
+### Acknowledgements
+
+- **Community Support:** The Slack community was instrumental in providing support and guidance.
+- **Learning Resources:** Utilized materials from W3Schools, YouTube tutorials, Code Institute lessons, and Replit.
+-[Youtube Video 1](https://www.youtube.com/watch?v=YNPhn5WkSbM)
+-[w3 Schools](https://www.w3schools.com/)
+
+### Content and Media
+
+- **Text:** All website text was authored by the project creator.
+- **Icons:** Icons used were sourced from Font Awesome.
+- **Images:** The background image is courtesy of Pexels, and recipe images are attributed to their respective recipe sites.
